@@ -82,6 +82,7 @@ done
 
 # This is normally unused
 # shellcheck disable=SC2034
+JAVA_HOME="C:\Users\web_surf\.jdks\axiomjdk-17.0.16"
 APP_BASE_NAME=${0##*/}
 APP_HOME=$( cd "${APP_HOME:-./}" && pwd -P ) || exit
 

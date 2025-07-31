@@ -135,7 +135,12 @@ environment:
 
 To build and run the demo server via Gradle, run:
 
+  setx JAVA_HOME "C:\Users\web_surf\.jdks\axiomjdk-17.0.16"
+
   $ ./gradlew run
+
+  use cygwin, gitbash for example if it's windows,
+   but definitely use linux for development in general, it works!
 
 This will serve the application under `https://localhost:8443/`.
 
